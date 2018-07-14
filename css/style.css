@@ -111,7 +111,7 @@ a:hover, a:visited {
 
 #basket {
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   padding:28px 25px;
   border-left: 1px solid #b13293;
@@ -140,13 +140,160 @@ a:hover, a:visited {
 .basket {
   width: 300px;
   height: 100px;
-  background: black;
+  background: #000;
   position: absolute;
-  right: 0px;
-  bottom: -100px;
+  bottom:-100px;
+  right:0px;
   display: none;
 }
 
 .pbt {
-  padding: 10px 10px;
+  padding: 30px 10px;
+  margin-top: -20px;
+  text-align: left;
+}
+#doc{
+
+}
+#content {
+  margin: 0px auto;
+  max-width: 960px;
+}
+
+.blueberry {
+  max-width: 960px;
+  margin-top: 30px;
+}
+.blueberry .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	overflow: hidden;
+}
+.blueberry .slides li img {
+	display: block;
+	width: 100%;
+	max-width: none;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+
+section {
+  width: 29%;
+  float: left;
+  margin: 2% 2%;
+  text-align: center;
+}
+
+article {
+  float: left;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  padding: 4%;
+}
+aside {
+  float:  right;
+  margin: 0 auto;
+  width: 35%;
+  height: auto;
+  padding: 3%;
+}
+
+ul .gym li {
+  padding-left: 3%;
+}
+footer {
+  background: #333;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.90;
+}
+
+footer p, footer h3 {
+  color: #fff;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.social li {
+  display: inline;
+}
+ul.social li img {
+  height: 50px;
+}
+
+footer.second {
+  border-top: 1px solid #4D4E50;
+  background-color: #333;
+  max-height: 50px;
+  text-align: center;
+  opacity: 0.95;
+}
+.clear {
+  clear: both;
+}
+/*-----------------Media---------------*/
+@media screen and (max-width: 478px) {
+  body {
+    position: absolute;
+  }
+}
+@media screen and (max-width: 1000px) {
+  header {
+    position: absolute;
+  }
+
+#mainheader  {
+    display: inline-block;
+  }
+
+.mainheader nav ul, .mainheader nav:active ul {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: #405580;
+    border: 1px solid #fff;
+    right: 20px;
+    top: 60px;
+    width: 50%;
+    border-radius: 2px 0 2px 2px;
+  }
+
+  .mainheader nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .mainheader nav:hover ul {
+    display: block;
+  }
+
+  section {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  article {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  aside {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
