@@ -28,7 +28,7 @@ public function unique(array $row,$err){
     return $this->err;
   }
 public function generateSalt($int){
-$chars='qwertyuiopasdfghjklzxcvbnm0123456789QWERTYYUIOPASDFGHJKLZX<>?,.:;][)(-+)]';
+$chars='qwertyuiopasdfghjklzxcvbnm0123456789QWERTYUIOPASDFGHJKLZXCVBNMX<>?,.:;][)(-+=]';
 $size=strlen($chars)-1;
 $salt='';
 while($int--){
@@ -36,6 +36,11 @@ while($int--){
 }
 return $salt;
 }
-
+public function generateHash($algo=PASSWORD_DEFAULT, $array $options=null){
+!is_null($option)?:$options=[
+'salt'=>$this->generateSalt(22),
+'cost'=>10;
+];
+$this->password = password_hash($this->password,$algo,$options); 
 }
 ?>
