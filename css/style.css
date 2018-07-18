@@ -46,7 +46,14 @@ header {
   opacity: .9;
   top:0;
 }
-
+article {
+  float: left;
+  width: 50%;
+  padding: 4%;
+}
+.circle-image {
+  border-radius: 70%;
+}
 #header-inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -340,5 +347,68 @@ h5 a:hover {
     z-index: 1000;
     position: absolute;
     background: #405580;
+    width: 50%;
+    padding: 20px;
+    right: 20px;
+    top: 60px;
+    border: 1px solid #fff;
+    border-radius: 4px 0 4px 4px;
+
   }
+  nav li {
+    text-align: center;
+    width: 100%;
+  }
+  .one-third {
+    width: 100%;
+    margin: 0;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+  }
+  .one-third i {
+    font-size: 360%;
+  }
+  article {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  aside {
+    width: 100%;
+  }
+  h4 {
+    font-size: 140%;
+    margin: 0;
+  }
+  footer .one-third {
+    width: 100%;
+    margin: 0;
+  }
+
+  .social i {
+    font-size: 245%;
+  }
+  #footer-third {
+    min-height: 150px;
+    padding-bottom: 10%;
+    border-bottom: 1px solid #959595;
+  }
+  #footer-third-last {
+    margin-bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  h3 {
+    font-size: 150%;
+  }
+   p {
+     font-size: 100%;
+     margin: 2%;
+   }
+   h4 {
+     font-size: 115%;
+   }
 }

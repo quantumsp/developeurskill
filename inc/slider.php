@@ -9,9 +9,12 @@
     </ul>
   </section>
 </div>
+
 <div class="clearfix"></div>
 
 <div class="inner-wrapper">
+  <section class="staggered-animation-container">
+<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay=".3s">
   <section class="one-third">
     <div class="circle">
       <td><i class="fa fa-users"></i></td>
@@ -22,6 +25,8 @@
        is that it’s just as important to have a plan of action
         on how to maintain your weight once you reach your goal.</p>
   </section>
+  </section>
+  <section class="os-animation" data-os-animation="fadeInDownBig" data-os-animation-delay=".3s">
   <section class="one-third">
     <div class="circle">
       <td><i class="fa fa-map-marker"></i></td>
@@ -32,6 +37,8 @@
        explains Nora Minno, NYC-based personal trainer and registered dietitian. This will help maintain
        that hard-earned muscle mass and endurance while also preventing future weight gain.</p>
   </section>
+</section>
+<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay=".3s">
   <section class="one-third">
     <div class="circle">
       <td><i class="fa fa-check square-o"></i></td>
@@ -40,13 +47,17 @@
     <p>A pattern of losing and gaining weight can also increase your risk for high blood pressure and cholesterol, too.
        The healthiest approach is to include fitness in your weekly routine in a way that feels manageable—and enjoyable.</p>
   </section>
+</section>
 </div>
 
 <div class="clearfix"></div>
 <!---inner end-->
+<section class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay=".3s">
 <article class="">
-  <img src="https://www.w3newbie.com/wp-content/uploads/gym-classes.png" />
+  <img class="circle-image" src="https://www.w3newbie.com/wp-content/uploads/gym-classes.png" />
 </article>
+</section>
+<section class="os-animation" data-os-animation="fadeInRight" data-os-animation-delay=".3s">
 <aside class="">
   <h3>Our Facility</h3>
   <ul class="gym">
@@ -56,7 +67,9 @@
     <li><h4>cardio machine movie theatre</h4></li>
   </ul>
 </aside>
+</section>
 <div class="clearfix"></div>
+<section class="os-animation" data-os-animation="bounceInLeft" data-os-animation-delay=".3s">
 <section class="one-third">
   <h3>Ladies Section</h3>
   <img src="http://w3newbie.com/wp-content/uploads/ladies-gym.jpg" />
@@ -64,6 +77,8 @@
     AroundBest Trainers AroundBest Trainers AroundBest Trainers AroundBest
     Trainers AroundBest Trainers AroundBest Trainers Around</p>
 </section>
+</section>
+<section class="os-animation" data-os-animation="bounceInDown" data-os-animation-delay=".3s">
 <section class="one-third">
   <h3>The Gym Floor</h3>
   <img src="http://w3newbie.com/wp-content/uploads/gym-floor.jpg" />
@@ -71,11 +86,14 @@
      AroundBest Trainers AroundBest Trainers AroundBest Trainers AroundBest Trainers
       AroundBest Trainers AroundBest Trainers Around</p>
 </section>
+</section>
+<section class="os-animation" data-os-animation="bounceInRight" data-os-animation-delay=".3s">
 <section class="one-third">
   <h3>Free Weights</h3>
   <img src="http://w3newbie.com/wp-content/uploads/free-weights.jpg" />
   <p>Best Trainers AroundBest Trainers AroundBest Trainers AroundBest Trainers
      AroundBest Trainers AroundBest Trainers AroundBest Trainers AroundBest Trainers
      AroundBest Trainers AroundBest Trainers Around</p>
+</section>
 </section>
 <div class="clearfix"></div>

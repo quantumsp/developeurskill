@@ -1,4 +1,4 @@
-
+<section class="os-animation" data-os-animation="zoomInDown" data-os-animation-delay=".3s">
 <footer>
   <div id="footer-inner">
   <section class="one-third" id="footer-third">
@@ -34,8 +34,9 @@
 <footer class="second">
    <p>&copy; The Gym, 2018. </p>
 </footer>
-
-
+</section>
+</section>
+<br>
 <!-- <footer class="site-footer">
   <center><h3>&copy; 2017-2018 Powered by <a href="@minosh_2017">iBeaity iDées</a>
   </h3></center>
