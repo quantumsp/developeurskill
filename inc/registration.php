@@ -1,6 +1,6 @@
 
 <?php
-class Reg extends User{
+class Registration extends User{
 public $confirm_password;
 private $err = [];
 
@@ -11,6 +11,7 @@ $this->confirm_password = $confirm_password;
 $this->email = $email;
 $this->date = date('d.m.y');
 }
+
 public function regex($pattern,$fild,$err){
   preg_match($pattern,$fild)?:$this->err[] = $err;
 }
@@ -41,6 +42,5 @@ public function generateHash($algo=PASSWORD_DEFAULT, $array $options=null){
 'salt'=>$this->generateSalt(22),
 'cost'=>10;
 ];
-$this->password = password_hash($this->password,$algo,$options); 
+$this->password = password_hash($this->password,$algo,$options);
 }
-?>
