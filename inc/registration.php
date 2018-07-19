@@ -4,7 +4,8 @@ class Registration extends User{
 public $confirm_password;
 private $err = [];
 
-public function__construct($login,$password,$confirm_password,$email){
+public function __construct($login,$password,$confirm_password,$email){
+
 $this->login = $login;
 $this->password = $password;
 $this->confirm_password = $confirm_password;

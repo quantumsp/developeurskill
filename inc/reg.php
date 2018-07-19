@@ -4,8 +4,8 @@ require_once(strtolower($class).'.php');
 }
 spl_autoload_register('autoload');
 $db=Db::getInstance();
-error_log(print_r($db, TRUE));
-var_dump($db);
+// error_log(print_r($db, TRUE));
+// var_dump($db);
 ?>
 <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
 <label><p>Login</p><input type="text" name="login"></label>
